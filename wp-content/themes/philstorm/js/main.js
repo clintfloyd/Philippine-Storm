@@ -7,9 +7,21 @@ function getDate(){
 	var curr_date = d.getDate();
 	var curr_month = d.getMonth();
 	var curr_year = d.getFullYear();
-	return (m_names[curr_month] + curr_date + ", "  + curr_year);
+	return (m_names[curr_month] + " " +curr_date + ", "  + curr_year);
 }
 $(document).ready(function(){
+	// plus/minus on main page
+	$('div.lisummary').css({'display':'none'});
+	$('.item-more').toggle(
+		function() {
+		$(this).css({'background-position' : 'bottom'});
+		$(this).parent().children('div').show();
+		},
+		function() {
+		$(this).css({'background-position' : 'top'});
+		$(this).parent().children('div').hide();
+		}
+	);
 
 	var txtValtmp = $("#s").val();
 

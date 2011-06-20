@@ -486,3 +486,193 @@ div.contentcontent, div.contentcontent *{
     font-weight: normal;
     line-height: 31px;
     text-shadow: 0 1px 1px #B6B6B6;
+}
+.latest{
+	width:300px;
+	float:right;
+	min-height:350px;
+}
+.latest h3 {
+    background: url("images/bg-grayline.png") repeat-x scroll center bottom transparent;
+    color: #414141;
+    font-size: 13px;
+    padding: 0 0 8px;
+}
+.latest a {
+    font-weight: bold;
+    line-height: 1.3em;
+}
+.latest li {
+    background: url("images/bullet-arrow.png") no-repeat scroll left 4px transparent;
+    font-size: 11px;
+    margin: 13px 0 0;
+    padding: 0 0 0 10px;
+}
+.latest span.postinfo {
+    color: #999999;
+    display: block;
+    font-size: 10px;
+    line-height: 1.6em;
+}
+.adleftindex{
+	float:left;
+	width:120px;
+	min-height:600px;
+}
+.content-right{
+	width:620px;
+	float:left;
+	min-height:600px;
+}
+.bodycontent {
+    color: #444444;
+    float: left;
+    font-size: 12px;
+    margin: 15px 10px 0;
+    width: 535px;
+}
+.addmarginright {
+    margin: 0 27px 40px 0;
+}
+.cat-widget {
+    float: left;
+    margin: 0 0 40px;
+    width: 254px;
+}
+.cat-widget h3 {
+    background: url("images/bg-grayline.png") repeat-x scroll center bottom transparent;
+    font-size: 12px;
+    height: 12px;
+    padding-bottom: 8px;
+    position: relative;
+    text-transform: uppercase;
+}
+.cat-widget h3 span.cattitle {
+    background: url("images/bg-greenline.png") repeat-x scroll center bottom transparent;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 7px;
+    position: absolute;
+}
+.cat-widget h3 span.catfeed a {
+    background: url("images/iconfeed.png") no-repeat scroll center center transparent;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+.cat-widget .story {
+    border-bottom: 1px solid #DCE1E9;
+    margin: 10px 0;
+    padding: 0 0 10px;
+}
+.morestories {
+    margin: 0 0 10px;
+}
+.story .storythumb {
+    display: inline;
+    float: left;
+    margin: 2px 10px 5px 0;
+}
+.fancybox-zoom {
+    position: relative;
+}
+.story .storythumb img {
+    display: block;
+    overflow: hidden;
+}
+.story h4 {
+    line-height: 1.3em;
+}
+.story .reactions {
+    color: #999999;
+    font-size: 10px;
+    line-height: 1.4em;
+    margin: 5px 0 0;
+}
+.story .reactions a {
+    color: #859E0F;
+    font-weight: bold;
+}
+.story p {
+    display: block;
+    line-height: 1.4em;
+}
+.show_author {
+    color: #000000;
+    font-size: 11px;
+    line-height: 1.5em;
+    margin: 7px 0 0;
+}
+.show_author strong {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+.story .fullarticle {
+    float: right;
+    margin: 10px 0 5px;
+}
+.morestories {
+    margin: 0 0 10px;
+}
+.morestories li {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 0 0 10px 15px;
+    position: relative;
+}
+.morestories li a.item-more {
+    background: url("images/plusminus.png") no-repeat scroll center top transparent;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 9px;
+}
+span.icon-photo {
+    background: url("images/icon-photo.png") no-repeat scroll left center transparent;
+    color: #333333;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: normal;
+    padding-left: 20px;
+    padding-right: 4px;
+}
+.morestories li div.lisummary {
+    display: none;
+}
+.morestories li div.lisummary p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 10px 0 0;
+    padding: 7px;
+}
+.rounded-orange {
+    background: none repeat scroll 0 0 #FF3000;
+    border: 1px solid #DCE1E9;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 3px 6px;
+    text-transform: uppercase;
+}
+.addmarginright {
+    margin: 0 27px 40px 0;
+}
+
+.rounded-black {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCE1E9;
+    color: #222222;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 3px 6px;
+    text-transform: uppercase;
+}

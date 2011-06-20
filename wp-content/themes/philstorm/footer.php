@@ -1,6 +1,11 @@
+				<?php
+				wp_reset_query();
+				if(!is_home()){
+				?>
 				</div>
 				<?php get_sidebar(); ?>
 				<br clear="all" />
+				<?php }else{} ?>
 			</div>
 			<div class="footercontainer">
 				<div class="header_ad">

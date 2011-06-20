@@ -1,4 +1,8 @@
 <div class="sidebar">
+	<?php
+	wp_reset_query();
+	if(!is_home()){
+	?>
 	<div class="sidebarcontainer">
 		<div class="sidebartitle">Recent Articles</div>
 		<div class="postlist">
@@ -13,8 +17,12 @@
 			</ul>
 		</div>
 	</div>
+	<?php } ?>
 	<div class="sidebarcontainer">
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/adsample.jpg" />
+		<div class="sidebartitle">Live Weather Satellite<br clear="all"/></div>
+		<div>
+			<img width="300" height="300"; src="http://www.pagasa.dost.gov.ph/wb/sat_images/satellite.gif" alt="Live Weather Satellite" />
+		</div>
 	</div>
 	<div class="sidebarcontainer">
 		<div class="sidebartitle">Weather Forecast <span>Philippines</span><br clear="all"/></div>

@@ -130,4 +130,8 @@
 				</div>
 			</div>
 			<div class="mainbodycontainer">
+				<?php
+				if(!is_home()){
+				?>
 				<div class="leftbodycontent">
+				<?php } ?>

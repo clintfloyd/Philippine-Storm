@@ -47,6 +47,95 @@ blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid
 
 
 
+/*******TABBER*********/
+
+.sliding {
+    border: 1px solid #DCE1E9;
+    width: 800px;
+}
+.slidingtabs {
+    border-bottom: 1px solid #DCE1E9;
+    float: left;
+    font-size: 12px;
+    width: 800px;
+}
+.slidingtabs li {
+    border-right: 1px solid #DCE1E9;
+    float: left;
+}
+.slidingtabs li a {
+    background: none repeat scroll 0 0 #F1F3F6;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.slidingtabs li a.current {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: -1px;
+    color: #859E0F;
+    padding: 9px 15px 11px;
+    position: relative;
+}
+.navigate {
+    position: absolute;
+    right: 2px;
+    top: -27px;
+}
+.navigate li {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.disabled {
+    cursor: default;
+}
+.scrollable {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+}
+.scrollable .items {
+    position: absolute;
+    width: auto
+}
+.slidingposts {
+    float: left;
+}
+.slidingposts li {
+    float: left;
+    font-size: 12px;
+    padding: 15px;
+    width: 138px;
+}
+.scrollable .items div {
+    float: left;
+}
+.slidingposts .image {
+    position: relative;
+}
+.fancybox-zoom {
+    position: relative;
+}
+.slidingposts .image img, .slidingposts .image a {
+    display: block;
+    overflow: hidden;
+}
 
 
-
+.zoom-overlay {
+    background: url("images/zoom.png") no-repeat scroll center center transparent;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+.slidingposts .title {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 7px 0 0;
+}

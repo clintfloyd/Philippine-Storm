@@ -22,11 +22,10 @@
 					?>
 						<div class="panel" title="Panel <?php echo $xy; ?>s">
 							<div class="wrapper">
-								<img src="<?php echo get_post_meta(get_the_ID(), '_video_thumbnail',true); ?>" alt="<?php the_title(); ?>" height="280" />
+								<img src="<?php echo get_post_meta(get_the_ID(), '_video_thumbnail',true); ?>" alt="<?php the_title(); ?>" height="280" width="620" alt="<?php the_excerpt(); ?>" />
 								<div class="photo-meta-data">
 									<?php the_title(); ?>
 									<?php the_excerpt(); ?>
-
 								</div>
 							</div>
 							<br clear="all" />
@@ -55,7 +54,7 @@
 				while ($featuredPosts->have_posts()) : $featuredPosts->the_post();
 				$xy++;
 				?>
-					<div><a href="#<?php echo $xy; ?>" class="cross-link"><img src="<?php echo get_post_meta(get_the_ID(), '_video_thumbnail_small',true)?>" class="nav-thumb" alt="<?php the_title(); ?>" /></a></div>
+					<div><a href="#<?php echo $xy; ?>" class="cross-link" title="<?php the_title(); ?>"><img src="<?php echo get_post_meta(get_the_ID(), '_video_thumbnail_small',true)?>" class="nav-thumb" alt="<?php the_title(); ?>" /></a></div>
 				<?php
 				endwhile;
 				remove_filter('posts_where', 'featured_where_featured');
