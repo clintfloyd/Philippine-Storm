@@ -32,8 +32,11 @@ blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid
 .stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 620px; }
 .stripNavL, .stripNavR, .stripNav			{ display: none; }
 .nav-thumb 									{ border: 1px solid black; margin-right: 5px; }
-#movers-row									{ margin: -45px 0 0 62px; }
-#movers-row div								{ width: 12%; float: left; }
+#movers-row									{ margin: 0 0 0 -14px; }
+#movers-row div								{     float: left;
+    height: 43px;
+    overflow: hidden;
+    width: 12%; }
 #movers-row div a.cross-link 				{ float: right; }
 .photo-meta-data							{ background: url(images_sample/transpBlack.png); padding: 10px; height: 30px; 
 											  margin-top: -50px; position: relative; z-index: 9999; color: white; }
